@@ -1,6 +1,15 @@
 const swiper = new Swiper(".mySwiper", {
-    scrollbar: {
-        el: ".swiper-scrollbar",
-        hide: true,
+    spaceBetween: 50,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+var swiper2 = new Swiper(".mySwiper2", {
+    direction: "vertical",
+    spaceBetween: 50,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
     },
 });

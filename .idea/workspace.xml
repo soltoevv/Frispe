@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbae5ec1-51f7-4b5c-a89a-57313b3af767" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Sass File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Frispes" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29cSY2v9lXeTqGFmizoEP67g1kN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Windows 10/WebstormProjects/sass/Frispes/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Windows 10\WebstormProjects\sass\Frispes\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Windows 10\WebstormProjects\sass\Frispes\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbae5ec1-51f7-4b5c-a89a-57313b3af767" name="Changes" comment="" />
+      <created>1653410924662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653410924662</updated>
+      <workItem from="1653410925971" duration="102000" />
+      <workItem from="1653411038597" duration="472000" />
+      <workItem from="1653411525274" duration="275000" />
+      <workItem from="1653411819571" duration="870000" />
+      <workItem from="1653412729326" duration="530000" />
+      <workItem from="1653413316777" duration="29000" />
+      <workItem from="1653413361091" duration="1240000" />
+      <workItem from="1653571924318" duration="1677000" />
+      <workItem from="1653574135011" duration="95000" />
+      <workItem from="1653574252303" duration="2617000" />
+      <workItem from="1653581022942" duration="382000" />
+      <workItem from="1653581416235" duration="5589000" />
+      <workItem from="1653587069506" duration="1064000" />
+      <workItem from="1653815655374" duration="302000" />
+      <workItem from="1653816008196" duration="185000" />
+      <workItem from="1653820205338" duration="367000" />
+      <workItem from="1653820587478" duration="72000" />
+      <workItem from="1653820730305" duration="116000" />
+      <workItem from="1653820880570" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
