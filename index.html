@@ -32,6 +32,15 @@
                 <a href="#">Log In</a>
                 <button>Sign Up</button>
             </div>
+            <div class="header-general__mobal">
+                <div class="header-general__mobal__block">
+                    <div class="header-general__mobal__block__square">
+                        <h1>x</h1>
+                        <input type="date">
+                        <input type="time">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </header>
@@ -41,19 +50,29 @@
         <div class="hero-general">
             <div class="hero-general__title">
                 <h1>Introducing</h1>
-                <h2>---</h2>
+
             </div>
             <div class="hero-general__item">
                 <h1>Revolutionary co-working<br> space to realize your<br> innovation</h1>
                 <p>In frispes, we spearhead new initiatives and<br> provide mentorship to a new startup, and<br> help grow their opportunities in key local,<br> regional and global markets</p>
             </div>
             <div class="hero-general__bot">
-
                 <div class="hero-general__box">
                     <h1>Find your space now</h1>
-                    <select name="Location">Malang, Indonesia</select>
-                    <select name="Type">Private Office</select>
-                    <select name="text">9 Aug 2020</select>
+                    <select name="select">
+                        <option value="value1" selected>Location</option>
+                        <option value="value2">Malang</option>
+                        <option value="value3"> Indonesia</option>
+                    </select>
+                    <select name="select">
+                        <option value="value1" selected>Type</option>
+                        <option value="value2">Private </option>
+                        <option value="value3">Office</option>
+                    </select>
+                    <select name="select">
+                        <option value="value1" selected>Date</option>
+                        <option value="value2">9 Aug 2020</option>
+                    </select>
                     <button>FIND MY SPACE</button>
                 </div>
                 <img src="./img/hero.png" alt="">
@@ -166,21 +185,17 @@
             <div class="our-general__box">
                 <div class="our-general__boxx">
                     <div>
-
-
                     <label class="our-general__label" for="Spacious">Spacious parking area</label>
                     <label class="our-general__label" for="Comfortable">Comfortable spaces</label>
                     <label class="our-general__label" for="Cozy">Cozy cafe</label>
                     <label class="our-general__label" for="Child">Child playground</label>
                     <label class="our-general__label" for="Outdoor">Outdoor spaces</label>
 
-
-                        <input class="our-general__radio" type="radio" name="tabs" id="Spacious" checked>
+                        <input class="our-general__radio" type="radio" name="tabs" id="Spacious">
                         <input class="our-general__radio" type="radio" name="tabs" id="Comfortable">
                         <input class="our-general__radio" type="radio" name="tabs" id="Cozy">
-                        <input class="our-general__radio" type="radio" name="tabs" id="Child">
+                        <input class="our-general__radio" type="radio" name="tabs" id="Child" checked>
                         <input class="our-general__radio" type="radio" name="tabs" id="Outdoor">
-
 
                         <div class="our-general__row">
                             <div class="our-general__content our-general__content-1">
@@ -227,11 +242,14 @@
                 </div>
                 <h2>Immersive beautiful<br> co-working space gallery</h2>
             </div>
-            <div class="gallery-general__bot">
-                <img src="./img/our1.png" alt="">
-                <img src="./img/our2.png" alt="">
-                <img src="./img/our4.png" alt="">
-                <img src="./img/our5.png" alt="">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/our1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/our2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/our4.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/our5.png" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </div>
@@ -266,39 +284,149 @@
                 </div>
                 <h2>What our customers<br> are saying</h2>
             </div>
-            <div class="reviews-general__bloc">
-                <div class="reviews-general__block">
-                    <h2>Our team has been working at frispes for almost 2<br> months because our office still closed. During<br> working at frispes, we feel a new experience, we<br> can feel working with a beautiful, modern, and<br> comfortable space. And cozy cafe with high-speed<br> internet  in there. Thank you for frispes and team.</h2>
-                    <div class="reviews-general__bot">
-                        <img src="./img/Ellipse%201.png" alt="">
-                        <div class="reviews-general__box">
-                            <h1>Pedro Ibanez</h1>
-                            <p>UI Designer at Google</p>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="reviews-general__block">
+                                    <h2>Our team has been working at frispes for almost 2<br> months because our office still closed. During<br> working at frispes, we feel a new experience, we<br> can feel working with a beautiful, modern, and<br> comfortable space. And cozy cafe with high-speed<br> internet  in there. Thank you for frispes and team.</h2>
+                                    <div class="reviews-general__bot">
+                                        <img src="./img/Ellipse%201.png" alt="">
+                                        <div class="reviews-general__box">
+                                            <h1>Pedro Ibanez</h1>
+                                            <p>UI Designer at Google</p>
+                                        </div>
+                                    </div>
+                                </div></div>
+                        </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="reviews-general__block">
+                                <h2>The high-speed internet at frispes was so amazing. I<br> can get best experience when running video call<br> with my clients. Frispes has spacious and safe<br> parking area, that’s what i need because i used to<br> work as freelancer for a long time.</h2>
+                                <div class="reviews-general__bot">
+                                    <img src="./img/Ellipse%202.png" alt="">
+                                    <div class="reviews-general__box">
+                                        <h1>Raymond Thual</h1>
+                                        <p>Professional Freelancer</p>
+                                    </div>
+                                </div>
+                            </div></div>
+                        </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="reviews-general__block">
+                                <h2>Just three words : Frispes is Awesome!</h2>
+                                <div class="reviews-general__bot">
+                                    <img src="./img/Ellipse%203.png" alt="">
+                                    <div class="reviews-general__box">
+                                        <h1>Yuli Berlian</h1>
+                                        <p>IOS Dev at Tokopedia</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="reviews-general__block">
-                    <h2>The high-speed internet at frispes was so amazing. I<br> can get best experience when running video call<br> with my clients. Frispes has spacious and safe<br> parking area, that’s what i need because i used to<br> work as freelancer for a long time.</h2>
-                    <div class="reviews-general__bot">
-                        <img src="./img/Ellipse%202.png" alt="">
-                        <div class="reviews-general__box">
-                            <h1>Raymond Thual</h1>
-                            <p>Professional Freelancer</p>
-                        </div>
-                    </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="book">
+    <div class="container">
+        <div class="book-general">
+            <div class="book-general__title">
+                <h1>Find the answers to anything<br> you need in our Help Center</h1>
+            </div>
+            <div class="book-general__bot">
+                <div class="book-general__box">
+                    <h1>How do I know if a<br> space is available?</h1>
+                    <select name="select"></select>
                 </div>
-                <div class="reviews-general__block">
-                    <h2>Just three words : Frispes is Awesome!</h2>
-                    <div class="reviews-general__bot">
-                        <img src="./img/Ellipse%203.png" alt="">
-                        <div class="reviews-general__box">
-                            <h1>Yuli Berlian</h1>
-                            <p>IOS Dev at Tokopedia</p>
-                        </div>
-                    </div>
+                <div class="book-general__box">
+                    <h1>How do I know if a<br> space is available?</h1>
+                    <select name="select"></select>
+                </div>
+                <div class="book-general__box">
+                    <h1>How do I know if a<br> space is available?</h1>
+                    <select name="select"></select>
                 </div>
             </div>
+            <div class="book-general__item">
+                <h1>More questions</h1>
+                <h2>></h2>
+            </div>
+        </div>
+    </div>
+</section>
 
+<section id="new">
+    <div class="container">
+        <div class="new-general">
+            <div class="new-general__title">
+                <h1>News, events and insights for you</h1>
+                <div class="new-general__item">
+                    <h2>See more</h2>
+                    <h3>></h3>
+                </div>
+            </div>
+            <div class="new-general__bot">
+                <div>
+                    <img src="./img/new1.png" alt="">
+                </div>
+                <div class="new-general__box">
+                        <h1>Google I / O 2020<br> news update</h1>
+                        <p>Out of concern for the health and safety of<br> our developers, employees, and local<br> communities — and in line with recent ...</p>
+                        <div class="new-general__box__bob">
+                            <img src="./img/new2.png" alt="">
+                            <div class="new-general__box__bob__lol">
+                                <h2>Sundar pichai</h2>
+                                <h3>CEO at Google</h3>
+                            </div>
+                        </div>
+                    </div>
+                <div class="new-general__box1">
+                    <img src="./img/new3.png" alt="">
+                    <h1>Minimal workspace for<br> inspirations</h1>
+                    <p>Anthony Masional</p>
+                </div>
+                <div class="new-general__box2">
+                    <img src="./img/new4.png" alt="">
+                    <h1>Does productivity increase<br> when working remotely ? </h1>
+                    <p>Franck Martin</p>
+                </div>
+                <div class="new-general__box3">
+                    <img src="./img/new5.png" alt="">
+                    <h1>Morning routine to boost your<br> mood</h1>
+                    <p>Elizabeth swan</p>
+                </div>
+                <div class="new-general__box3">
+                    <img src="./img/new6.png" alt="">
+                    <h1>5+ tips to find comfortable<br> co-working space</h1>
+                    <p>Mykola Ilschenko</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="member">
+    <div class="container">
+        <div class="member-general">
+            <div class="member-general__bot">
+                <div class="member-general__box">
+                    <div class="member-general__title">
+                        <h1>Became a member</h1>
+                        <div></div>
+                    </div>
+                    <h2>Ready to try different<br> work experience now?</h2>
+                    <p>Get the best working experience that you never<br> feel before</p>
+                    <button>SIGN UP NOW</button>
+                </div>
+                <img src="./img/member1.png" alt="">
+                <img src="./img/member2.svg" alt="">
+            </div>
         </div>
     </div>
 </section>
