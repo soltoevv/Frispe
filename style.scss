@@ -557,6 +557,9 @@
     &__box{
       display: flex;
       justify-content: space-between;
+      img{
+        cursor: pointer;
+      }
     }
   }
 }
@@ -878,9 +881,15 @@
   .member-general{
     &__bot{
       display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      img{
+        margin-top: 20px;
+      }
     }
     &__box{
-      margin-top: 70px;
+      margin-top: 30px;
       h2{
         font-family: 'Lora',sans-serif;
         font-style: normal;
@@ -888,6 +897,7 @@
         font-size: 40px;
         line-height: 51px;
         color: #FFFFFF;
+        margin-bottom: 20px;
       }
       p{
         font-family: 'Lato',sans-serif;
@@ -896,6 +906,7 @@
         font-size: 20px;
         line-height: 30px;
         color: #DFDFDF;
+        margin-bottom: 30px;
       }
       button{
         width: 350px;
@@ -907,11 +918,12 @@
         font-size: 18px;
         line-height: 28px;
         color: #FFFFFF;
-
+        cursor: pointer;
       }
     }
     &__title{
       display: flex;
+      margin-bottom: 20px;
       h1{
         font-family: 'Lato',sans-serif;
         font-style: normal;
@@ -927,6 +939,64 @@
         height: 2px;
         background: white;
         color: white;
+      }
+    }
+    &__img{
+      position: absolute;
+      right: 30px;
+    }
+  }
+}
+
+#Frispes{
+  background: #0D2C4A;
+  .Frispes-general{
+    &__block{
+      padding-top: 60px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__bot{
+      h1{
+        font-family: 'Lora',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 67px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+      }
+      p{
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #F8F8F8;
+        opacity: 0.85;
+        margin-bottom: 30px;
+      }
+    }
+    &__box{
+      h1{
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        opacity: 0.5;
+        margin-bottom: 24px;
+      }
+      h2{
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+        cursor: pointer;
       }
     }
   }

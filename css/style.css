@@ -577,6 +577,9 @@ a {
   display: flex;
   justify-content: space-between;
 }
+#uses .uses-general__box img {
+  cursor: pointer;
+}
 
 #reviews {
   margin-top: 140px;
@@ -878,9 +881,15 @@ a {
 }
 #member .member-general__bot {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+#member .member-general__bot img {
+  margin-top: 20px;
 }
 #member .member-general__box {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 #member .member-general__box h2 {
   font-family: "Lora", sans-serif;
@@ -889,6 +898,7 @@ a {
   font-size: 40px;
   line-height: 51px;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 #member .member-general__box p {
   font-family: "Lato", sans-serif;
@@ -897,6 +907,7 @@ a {
   font-size: 20px;
   line-height: 30px;
   color: #DFDFDF;
+  margin-bottom: 30px;
 }
 #member .member-general__box button {
   width: 350px;
@@ -908,9 +919,11 @@ a {
   font-size: 18px;
   line-height: 28px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 #member .member-general__title {
   display: flex;
+  margin-bottom: 20px;
 }
 #member .member-general__title h1 {
   font-family: "Lato", sans-serif;
@@ -927,6 +940,58 @@ a {
   height: 2px;
   background: white;
   color: white;
+}
+#member .member-general__img {
+  position: absolute;
+  right: 30px;
+}
+
+#Frispes {
+  background: #0D2C4A;
+}
+#Frispes .Frispes-general__block {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#Frispes .Frispes-general__bot h1 {
+  font-family: "Lora", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+#Frispes .Frispes-general__bot p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #F8F8F8;
+  opacity: 0.85;
+  margin-bottom: 30px;
+}
+#Frispes .Frispes-general__box h1 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-bottom: 24px;
+}
+#Frispes .Frispes-general__box h2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
